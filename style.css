@@ -1,0 +1,117 @@
+body {
+    background-color: #0d0d0d;
+    color: #00ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-top: 80px;
+}
+
+.home-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.main-title {
+    font-size: 42px;
+    color: #00ffff;
+    text-shadow: 0 0 8px #00ffff99;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #00ffffaa;
+    margin-bottom: 30px;
+}
+
+.launch-button {
+    display: inline-block;
+    background-color: #00ffff;
+    color: black;
+    padding: 12px 24px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #00ffff60;
+    transition: all 0.3s ease-in-out;
+}
+
+.launch-button:hover {
+    background-color: #00dddd;
+    box-shadow: 0 0 20px #00ffff;
+}
+
+.members {
+    margin-top: 50px;
+    color: #00ffff;
+    font-size: 18px;
+}
+
+.members ul {
+    list-style: none;
+    padding: 0;
+}
+
+.members li {
+    margin: 5px 0;
+}
+
+
+body.dashboard {
+    background-color: #0d0d0d;
+    color: #00ffff;
+}
+
+.dashboard h1,
+.dashboard h2,
+.dashboard .title {
+    color: #1e90ff;
+    text-align: left;
+    padding-left: 5%;
+    text-shadow: 1px 1px 5px #1e90ff99;
+}
+
+.dashboard thead {
+    background-color: #1e90ff;
+    color: black;
+}
+
+.dashboard td,
+.dashboard th {
+    border: 1px solid #00ffff;
+    color: #00ffff;
+}
+
+.dashboard table {
+    box-shadow: 0 0 10px #00ffff66;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.dashboard ul {
+    color: #00ffff;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.dashboard ul li {
+    margin-bottom: 8px;
+}
+
+.panel {
+    background-color: #101010;
+    margin: 30px 0 30px 5%;
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 0 10px #00ffff40;
+}
+
+
+.post-threat {
+    color: #00ff00 !important;
+    font-weight: bold;
+}

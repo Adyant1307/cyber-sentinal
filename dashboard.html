@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Threat Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="dashboard">
+    <h1 class="title">Cyber Threat Dashboard</h1>
+
+    <section class="panel">
+        <h2>Live Cybersecurity Threats</h2>
+        <table id="live-table">
+            <thead><tr><th>Post</th><th>Status</th></tr></thead>
+            <tbody></tbody>
+        </table>
+    </section>
+
+    <section class="panel">
+        <h2>Sample Dark Web Posts:</h2>
+        <ul id="darkweb-raw"></ul>
+    </section>
+
+    <section class="panel">
+        <h2>Dark Web Threat Detection Results:</h2>
+        <table id="darkweb-table">
+            <thead><tr><th>Post</th><th>Status</th><th>Threat Level</th><th>Time</th></tr></thead>
+            <tbody></tbody>
+        </table>
+    </section>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
